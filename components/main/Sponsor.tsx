@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-
 import { companies } from "@/data";
 import Image from "next/image";
 

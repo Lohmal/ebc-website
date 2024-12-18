@@ -1,14 +1,17 @@
 import React from "react";
-import {
-  RxInstagramLogo,
-  RxLinkedinLogo,
-} from "react-icons/rx";
-
+import { RxInstagramLogo, RxLinkedinLogo } from "react-icons/rx";
 
 const Footer = () => {
   return (
-    <footer className="w-full h-full container bg-transparent text-gray-200 shadow-lg p-[15px]">
-      <div className="w-full flex flex-col items-center justify-center m-auto">
+    <footer
+      style={{
+        background: "rgb(4,7,29)",
+        backgroundColor:
+          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+      }}
+      className="w-full h-full border-t dark:border-slate-800   text-gray-200 shadow-lg p-[15px]"
+    >
+      <div className="w-full container flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Sosyal Medya</div>

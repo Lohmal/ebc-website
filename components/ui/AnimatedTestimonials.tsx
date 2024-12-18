@@ -1,5 +1,5 @@
 "use client";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
@@ -20,6 +20,7 @@ const AnimatedTestimonials = ({
 }) => {
   const [active, setActive] = useState(0);
   const [rotationDegrees, setRotationDegrees] = useState<Array<number>>([]);
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     setRotationDegrees(
@@ -29,7 +30,11 @@ const AnimatedTestimonials = ({
 
   const handleNext = useCallback(() => {
     setActive((prev) => (prev + 1) % testimonials.length);
-  }, [testimonials.length]);
+    if (autoplay && intervalRef.current) {
+      clearInterval(intervalRef.current);
+      intervalRef.current = setInterval(handleNext, 3000);
+    }
+  }, [autoplay, testimonials.length]);
 
   const handlePrev = () => {
     setActive((prev) => (prev - 1 + testimonials.length) % testimonials.length);
@@ -37,8 +42,12 @@ const AnimatedTestimonials = ({
 
   useEffect(() => {
     if (autoplay) {
-      const interval = setInterval(handleNext, 2000);
-      return () => clearInterval(interval);
+      intervalRef.current = setInterval(handleNext, 3000);
+      return () => {
+        if (intervalRef.current) {
+          clearInterval(intervalRef.current);
+        }
+      };
     }
   }, [autoplay, handleNext]);
 

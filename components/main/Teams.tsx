@@ -45,12 +45,6 @@ export function Teams() {
       src: "/teams/FarukBaykal.jpg",
     },
     {
-      quote: "Elektrik-Elektronik Mühendisliği",
-      name: "Mert Uçar",
-      designation: "Yönetim Kurulu Üyesi",
-      src: "/teams/MertUcar.jpg",
-    },
-    {
       quote: "Havacılık ve Uzay Mühendisliği",
       name: "İkra Gültekin",
       designation: "Yönetim Kurulu Üyesi",
@@ -91,12 +85,6 @@ export function Teams() {
       name: "Volkan Kıvanç",
       designation: "Yönetim Kurulu Üyesi",
       src: "/teams/VolkanKivanc.jpg",
-    },
-    {
-      quote: "Bilgisayar Mühendisliği",
-      name: "Emre Altunbey",
-      designation: "Yönetim Kurulu Üyesi",
-      src: "/teams/EmreAltunbey.jpg",
     },
     {
       quote: "Bilgisayar Mühendisliği",

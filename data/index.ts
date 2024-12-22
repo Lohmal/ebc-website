@@ -10,8 +10,8 @@ export const companies = [
   {
     id: 1,
     name: "Temsa",
-    img: "/sponsor/temsa.png",
-    nameImg: "/sponsor/temsa.png",
+    img: "/sponsor/Temsa.png",
+    nameImg: "/sponsor/Temsa.png",
   },
   {
     id: 2,

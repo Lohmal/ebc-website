@@ -54,6 +54,35 @@ const data = [
   },
   {
     category: "",
+    title: "Elektrikli Araba",
+    src: "/projects/ElektrikliAraba.jpg",
+    content: (
+      <>
+        <div
+          key={"dummy-content"}
+          className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+        >
+          <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-4">
+            Elektrikli araba projesinde, TEKNOFEST 2025 Elektrikli Araç
+            Yarışları için verimlilik odaklı bir araç tasarlandı. Aerodinamik
+            kabuk tasarımı, düşük sürtünme katsayısıyla optimize edilmiş, şasi
+            ise dayanıklılık ve güvenlik ön planda tutularak geliştirilmiştir.
+            Araçta kullanılan yerli üretim diferansiyel ve fren sistemleri,
+            maliyet avantajı ve performans artışı sağlamaktadır.
+          </p>
+          <Image
+            src="/projects/ElektrikliAraba.jpg"
+            alt="Macbook mockup from Aceternity UI"
+            height="500"
+            width="500"
+            className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain rounded"
+          />
+        </div>
+      </>
+    ),
+  },
+  {
+    category: "",
     title: "Araba Süren Balık",
     src: "/projects/arababalik.webp",
     content: (
@@ -77,7 +106,7 @@ const data = [
             alt="Macbook mockup from Aceternity UI"
             height="500"
             width="500"
-            className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+            className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain rounded"
           />
         </div>
       </>
@@ -106,7 +135,7 @@ const data = [
             alt="Macbook mockup from Aceternity UI"
             height="500"
             width="500"
-            className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+            className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain rounded"
           />
         </div>
       </>
@@ -133,7 +162,7 @@ const data = [
             alt="Macbook mockup from Aceternity UI"
             height="500"
             width="500"
-            className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+            className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain rounded"
           />
         </div>
       </>

@@ -7,7 +7,7 @@ import Image from "next/image";
 const Sponsor = () => {
   return (
     <section id="clients" className="py-20">
-      <h2 className="text-[40px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <h2 className="text-[40px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-12">
         Sponsorlarımız
       </h2>
       <div className="flex flex-col items-center max-lg:mt-10">
@@ -20,7 +20,9 @@ const Sponsor = () => {
                   alt={company.name}
                   height={650}
                   width={650}
-                  className=""
+                  className={
+                    company.name === "Temsa" ? "px-5 max-custom:pb-9" : "w-full"
+                  }
                 />
               </div>
             </React.Fragment>

@@ -8,12 +8,6 @@ export const navItems = [
 
 export const companies = [
   {
-    id: 1,
-    name: "Temsa",
-    img: "/sponsor/Temsa.png",
-    nameImg: "/sponsor/Temsa.png",
-  },
-  {
     id: 2,
     name: "Petka",
     img: "/sponsor/petka.png",

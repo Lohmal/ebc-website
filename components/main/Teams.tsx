@@ -9,10 +9,10 @@ export function Teams() {
       src: "/teams/OmerTolun.jpg",
     },
     {
-      quote: "Endüstri Mühendisliği",
-      name: "Aybüke Tuana Budaklı",
+      quote: "Elektrik-Elektronik Mühendisliği",
+      name: "Talha Demir Mesutgil",
       designation: "Yönetim Kurulu Başkanı",
-      src: "/teams/AybukeTuanaBudakli.jpg",
+      src: "/teams/TalhaDemirMesutgil.jpg",
     },
     {
       quote: "Yazılım Mühendisliği",
@@ -25,12 +25,6 @@ export function Teams() {
       name: "Musa Malkoç",
       designation: "Yönetim Kurulu Üyesi",
       src: "/teams/MusaMalkoc.jpg",
-    },
-    {
-      quote: "Elektrik-Elektronik Mühendisliği",
-      name: "Talha Demir Mesutgil",
-      designation: "Yönetim Kurulu Üyesi",
-      src: "/teams/TalhaDemirMesutgil.jpg",
     },
     {
       quote: "Elektrik-Elektronik Mühendisliği",
@@ -61,12 +55,6 @@ export function Teams() {
       name: "MuhammetCan Güyildar",
       designation: "Yönetim Kurulu Üyesi",
       src: "/teams/MuhammetCanGuyildar.jpg",
-    },
-    {
-      quote: "Endüstri Mühendisliği",
-      name: "Sena Başkaya",
-      designation: "Yönetim Kurulu Üyesi",
-      src: "/teams/SenaBaskaya.jpg",
     },
     {
       quote: "Yazılım Mühendisliği",

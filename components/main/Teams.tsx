@@ -15,46 +15,10 @@ export function Teams() {
       src: "/teams/TalhaDemirMesutgil.jpg",
     },
     {
-      quote: "Yazılım Mühendisliği",
-      name: "Ceren Bayındır",
-      designation: "Yönetim Kurulu Başkan Yardımcısı",
-      src: "/teams/CerenBayindir.jpg",
-    },
-    {
       quote: "Elektrik-Elektronik Mühendisliği",
       name: "Musa Malkoç",
-      designation: "Yönetim Kurulu Üyesi",
+      designation: "Yönetim Kurulu Başkan Yardımcısı",
       src: "/teams/MusaMalkoc.jpg",
-    },
-    {
-      quote: "Elektrik-Elektronik Mühendisliği",
-      name: "Halil Arslan",
-      designation: "Yönetim Kurulu Üyesi",
-      src: "/teams/HalilArslan.jpg",
-    },
-    {
-      quote: "Elektrik-Elektronik Mühendisliği",
-      name: "Faruk Baykal",
-      designation: "Yönetim Kurulu Üyesi",
-      src: "/teams/FarukBaykal.jpg",
-    },
-    {
-      quote: "Havacılık ve Uzay Mühendisliği",
-      name: "İkra Gültekin",
-      designation: "Yönetim Kurulu Üyesi",
-      src: "/teams/IkraGultekin.jpg",
-    },
-    {
-      quote: "Makine Mühendisliği",
-      name: "Lütfi Kaan Ünal",
-      designation: "Yönetim Kurulu Üyesi",
-      src: "/teams/LutfiKaanUnal.jpg",
-    },
-    {
-      quote: "Makine Mühendisliği",
-      name: "MuhammetCan Güyildar",
-      designation: "Yönetim Kurulu Üyesi",
-      src: "/teams/MuhammetCanGuyildar.jpg",
     },
     {
       quote: "Yazılım Mühendisliği",
@@ -63,22 +27,66 @@ export function Teams() {
       src: "/teams/NisaNurHurc.jpg",
     },
     {
+      quote: "Makine Mühendisliği",
+      name: "Lütfi Kaan Ünal",
+      designation: "Yönetim Kurulu Üyesi",
+      src: "/teams/LutfiKaanUnal.jpg",
+    },
+    {
+      quote: "Endüstri Mühendisliği",
+      name: "Edanur Arpalık",
+      designation: "Yönetim Kurulu Üyesi",
+      src: "/teams/ekipprofil.jpg",
+    },
+    {
+      quote: "Elektrik-Elektronik Mühendisliği",
+      name: "Faruk Baykal",
+      designation: "Üst Kurul Üyesi",
+      src: "/teams/FarukBaykal.jpg",
+    },
+    {
+      quote: "Havacılık ve Uzay Mühendisliği",
+      name: "İkra Gültekin",
+      designation: "Üst Kurul Üyesi",
+      src: "/teams/IkraGultekin.jpg",
+    },
+    
+    {
+      quote: "Makine Mühendisliği",
+      name: "MuhammetCan Güyildar",
+      designation: "Üst Kurul Üyesi",
+      src: "/teams/MuhammetCanGuyildar.jpg",
+    },
+    {
+      quote: "Yazılım Mühendisliği",
+      name: "Ceren Bayındır",
+      designation: "Üst Kurul Üyesi",
+      src: "/teams/CerenBayindir.jpg",
+    },
+    
+    {
       quote: "Bilgisayar Mühendisliği",
       name: "Enver Kaynak",
-      designation: "Yönetim Kurulu Üyesi",
+      designation: "Üst Kurul Üyesi",
       src: "/teams/Enver.jpg",
     },
     {
       quote: "Bilgisayar Mühendisliği",
       name: "Volkan Kıvanç",
-      designation: "Yönetim Kurulu Üyesi",
+      designation: "Üst Kurul Üyesi",
       src: "/teams/VolkanKivanc.jpg",
     },
     {
       quote: "Bilgisayar Mühendisliği",
       name: "Belkıs Güllü",
-      designation: "Yönetim Kurulu Üyesi",
+      designation: "Üst Kurul Üyesi",
       src: "/teams/BelkisGullu.jpg",
+    },
+    {
+      quote: "Elektrik-Elektronik Mühendisliği",
+      name: "Halil Arslan",
+      designation: "Üst Kurul Üyesi",
+      src: "/teams/HalilArslan.jpg",
     },
   ];
   return (

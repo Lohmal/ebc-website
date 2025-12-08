@@ -19,6 +19,24 @@ export const companies = [
     img: "/sponsor/reta_tech.png",
     nameImg: "/sponsor/reta_tech.png",
   },
+  {
+    id: 4,
+    name: "AsutFiberglass",
+    img: "/sponsor/asut_fiberglass_logo.png",
+    nameImg: "/sponsor/asut_fiberglass_logo.png",
+  },
+  {
+    id: 5,
+    name: "Temsa",
+    img: "/sponsor/Temsa.png",
+    nameImg: "/sponsor/Temsa.png",
+  },
+  {
+    id: 6,
+    name: "EmreMakina",
+    img: "/sponsor/emre_makina_logo.png",
+    nameImg: "/sponsor/emre_makina_logo.png",
+  }
 ];
 export const workExperience = [
   {

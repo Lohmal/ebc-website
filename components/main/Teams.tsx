@@ -34,9 +34,9 @@ export function Teams() {
     },
     {
       quote: "Endüstri Mühendisliği",
-      name: "Edanur Arpalık",
+      name: "Mine Dal",
       designation: "Yönetim Kurulu Üyesi",
-      src: "/teams/ekipprofil.jpg",
+      src: "/teams/MineDal.png",
     },
     {
       quote: "Elektrik-Elektronik Mühendisliği",
@@ -50,7 +50,6 @@ export function Teams() {
       designation: "Üst Kurul Üyesi",
       src: "/teams/IkraGultekin.jpg",
     },
-    
     {
       quote: "Makine Mühendisliği",
       name: "MuhammetCan Güyildar",
@@ -75,18 +74,6 @@ export function Teams() {
       name: "Volkan Kıvanç",
       designation: "Üst Kurul Üyesi",
       src: "/teams/VolkanKivanc.jpg",
-    },
-    {
-      quote: "Bilgisayar Mühendisliği",
-      name: "Belkıs Güllü",
-      designation: "Üst Kurul Üyesi",
-      src: "/teams/BelkisGullu.jpg",
-    },
-    {
-      quote: "Elektrik-Elektronik Mühendisliği",
-      name: "Halil Arslan",
-      designation: "Üst Kurul Üyesi",
-      src: "/teams/HalilArslan.jpg",
     },
   ];
   return (

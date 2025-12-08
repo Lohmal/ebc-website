@@ -19,12 +19,12 @@ const cards = [
   {
     id: 1,
     className: "md:col-span-2",
-    thumbnail: "/gallery/gallery1.jpg",
+    thumbnail: "/gallery/TeknofestRoket2024-2025.jpg",
   },
   {
     id: 2,
     className: "col-span-1",
-    thumbnail: "/gallery/gallery2.jpg",
+    thumbnail: "/gallery/TeknofestRoket2024-2025_ROKETSAN.png",
   },
   {
     id: 3,

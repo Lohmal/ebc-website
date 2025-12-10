@@ -24,6 +24,42 @@ const Projects = () => {
 const data = [
   {
     category: "",
+    title: "Orta İrtifa Roket",
+    src: "/projects/rocket.jpg",
+    content: (
+      <>
+        <div
+          key={"dummy-content"}
+          className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+        >
+          <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-4">
+            <span className="font-bold text-neutral-700 dark:text-neutral-200"></span>{" "}
+            Orta irtifa roket projemiz, takımımız BÜRKÜT tarafından Teknofest 2025 Orta İrtifa Roket 
+            Yarışması için tamamen özgün bir şekilde tasarlanmıştır. Aerodinamik gövde yapısı, yüksek 
+            irtifa stabilitesi ve optimize edilen itki-konfigürasyon yapısıyla yarışma gereksinimlerini 
+            en verimli şekilde karşılayacak biçimde geliştirilmiştir.
+
+            Roketimiz Demir, hem yapısal tasarım hem de elektronik-aviyonik entegrasyonu açısından tamamen ekip 
+            içinde geliştirilen özgün mühendislik çözümlerine sahiptir. Gövde, uçuş bilgisayarı, telemetri
+            sistemi ve kontrol yazılımları baştan sona kendi takımımız tarafından tasarlanıp üretilmiştir.
+
+            Bu özgün yaklaşım ve mühendisliğin sonucu olarak, Teknofest 2025 Orta İrtifa kategorisinde 
+            “En İyi Özgün Tasarım Ödülü” kazanılmıştır. BÜRKÜT ekibi olarak, disiplinlerarası 
+            mühendisliği bir araya getirip yenilikçi bir roket ortaya koymanın gururunu taşımaktayız.
+          </p>
+          <Image
+            src="/projects/rocket.jpg"
+            alt="Macbook mockup from Aceternity UI"
+            height="500"
+            width="500"
+            className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+          />
+        </div>
+      </>
+    ),
+  },
+  {
+    category: "",
     title: "Elektrikli Scooter",
     src: "/projects/ElektrikliScooter1.jpg",
     content: (
